@@ -1,0 +1,53 @@
+# Backend (Java/Maven)
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/*.class
+backend/*.jar
+backend/*.war
+
+# Frontend (Node.js)
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Environment files
+.env
+.env.local
+
+# Package manager locks (optional - uncomment if you want to lock versions)
+# backend/**/node_modules/
+# frontend/package-lock.json
+
+# Logs
+*.log
+npm-debug.log*
+maven-debug.log*
+
+# Temporary files
+*.tmp
+*.bak
+*~
